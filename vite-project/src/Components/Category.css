@@ -1,0 +1,30 @@
+.category-card {
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+}
+
+.category-card:hover {
+  transform: translateY(-5px);
+  border-bottom: 2px solid #4b5fff; /
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.category-img {
+  transition: transform 0.4s ease;
+  border-radius: 12px;
+}
+
+.category-card:hover .category-img {
+  transform: scale(1.05);
+}
+
+.category-title {
+  font-weight: 500;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.category-card:hover .category-title {
+  color: #4b5fff;
+}

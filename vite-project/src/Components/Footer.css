@@ -1,0 +1,52 @@
+.footer-section {
+  background-color: #f8f9fb;
+  color: #222;
+  font-family: "Poppins", sans-serif;
+}
+
+.footer-heading {
+  font-weight: 600;
+  font-size: 15px;
+  color: #2b2b8f;
+  margin-bottom: 10px;
+}
+
+.footer-links li {
+  font-size: 14px;
+  color: #333;
+  line-height: 1.8;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.footer-links li:hover {
+  color: #4b5fff;
+}
+
+.footer-image-box {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.footer-img-caption {
+  font-size: 13px;
+  color: #2b2b8f;
+  font-weight: 600;
+  padding: 8px;
+}
+
+.footer-social-icons svg {
+  color: #4b5fff;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.footer-social-icons svg:hover {
+  transform: translateY(-2px);
+  color: #1e2bb8;
+}
+
+hr {
+  border-color: #ccc;
+}

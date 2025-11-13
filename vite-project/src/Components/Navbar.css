@@ -1,0 +1,102 @@
+
+.custom-dropdown .dropdown-menu {
+  width: 850px;
+  padding: 2rem;
+  border-radius: 12px;
+  border: none;
+  box-shadow: 0 5px 25px rgba(0,0,0,0.1);
+  background-color: #f9fbff;
+}
+
+
+.dropdown-3col {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: relative;
+}
+
+.main-cats {
+  flex: 1;
+  position: relative;
+}
+
+.main-cats ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.main-cats li {
+  position: relative;
+  margin-bottom: 0.6rem;
+}
+
+.main-cats a {
+  color: #0d47a1;
+  font-weight: 600;
+  text-decoration: none;
+  display: block;
+  padding: 4px 0;
+  transition: color 0.3s;
+}
+
+.main-cats a:hover {
+  color: #f1734d;
+}
+
+
+.sub-menu {
+  display: none;
+  position: absolute;
+  left: 180px;
+  top: 0;
+  background: transparent;
+  padding-left: 1.5rem;
+}
+
+.sub-menu li a {
+  color: #0d47a1;
+  font-weight: 500;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 0.4rem;
+}
+
+.sub-menu li a:hover {
+  color: #f1734d;
+}
+
+.main-cats li.has-sub:hover > .sub-menu {
+  display: block;
+}
+
+
+.quote-area {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-container {
+  position: relative;
+  width: 260px;
+  height: 180px;
+}
+
+.blob-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #f1734d;
+  border-radius: 50% 40% 60% 40% / 55% 45% 60% 40%;
+  z-index: 1;
+}
+
+.quote-text {
+  z-index: 2;
+  width: 80%;
+}

@@ -1,0 +1,46 @@
+.hero-section {
+  background-color: #fff;
+  overflow: hidden;
+  position: relative;
+}
+
+.shape-bg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 60%;
+  height: 90%;
+  background: #ff7043;
+  border-radius: 60% 40% 40% 60% / 60% 50% 50% 40%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  opacity: 0.8;
+}
+
+.hero-section img {
+  position: relative;
+  z-index: 1;
+}
+
+/* Floating Button */
+.floating-btn {
+  position: absolute;
+  bottom: -30px;
+  ;; right: 20%;
+  transform: translateX(-50%);
+
+  
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  font-size: 22px;
+  cursor: pointer;
+  ;; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  z-index: 2;
+  transition: all 0.3s ease;
+}
+
+.floating-btn:hover {
+   background-color: #283593;
+  transform: translateX(-50%) scale(1.1);
+}

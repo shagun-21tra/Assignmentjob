@@ -1,0 +1,36 @@
+.reason-card {
+  transition: all 0.3s ease;
+  background: #fff;
+}
+
+.reason-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+.icon-wrapper {
+  width: 70px;
+  height: 70px;
+  background: #eef1ff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  transition: background 0.3s ease;
+}
+
+.reason-card:hover .icon-wrapper {
+  background: #4b5fff;
+}
+
+.reason-icon {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  transition: filter 0.3s ease;
+}
+
+.reason-card:hover .reason-icon {
+  filter: brightness(0) invert(1);
+}
